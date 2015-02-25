@@ -224,7 +224,8 @@ From togaf 24.3</panel_attributes>
       <h>64</h>
     </coordinates>
     <panel_attributes>Risk Schedule
---</panel_attributes>
+--
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -250,7 +251,8 @@ From togaf 24.3</panel_attributes>
 --
 From togaf 7.4 | 8
 List of diagrams
-Landscape maps</panel_attributes>
+Landscape maps
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -297,5 +299,19 @@ Landscape maps</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>160.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>536</x>
+      <y>528</y>
+      <w>144</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Architecture Value Proposition
+--
+? some stuff goes here ?
+bg=red</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
