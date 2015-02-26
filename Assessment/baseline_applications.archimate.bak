@@ -143,6 +143,8 @@
     <element xsi:type="archimate:AssociationRelationship" id="96d0183e" source="ed96ffab" target="3bd37d08"/>
     <element xsi:type="archimate:AssociationRelationship" id="4c27996b" source="ed96ffab" target="8cd26274"/>
     <element xsi:type="archimate:AssociationRelationship" id="62391fa8" source="ea31d0b9" target="bc178d61"/>
+    <element xsi:type="archimate:UsedByRelationship" id="387ccf08" source="e5bc1a71" target="3e31f4f4"/>
+    <element xsi:type="archimate:UsedByRelationship" id="8edfd26a" source="5a0e7d31" target="3e31f4f4"/>
   </folder>
   <folder name="Views" id="cfbd7fdf" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="6f281d6d" name="Heating Business Model">
@@ -196,28 +198,27 @@
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="a6b9def3" name="Allocation Business Model">
       <child xsi:type="archimate:DiagramObject" id="ff82ca0f" textAlignment="2" archimateElement="7884b422">
-        <bounds x="180" y="156" width="169" height="373"/>
+        <bounds x="180" y="168" width="169" height="313"/>
         <child xsi:type="archimate:DiagramObject" id="fcb01df3" textAlignment="2" archimateElement="3ad5fb66">
           <bounds x="24" y="38" width="120" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="1ba9e58f" textAlignment="2" archimateElement="3e31f4f4">
-          <bounds x="24" y="122" width="120" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="1ba9e58f" textAlignment="2" targetConnections="77aa818c c76e0821" archimateElement="3e31f4f4">
+          <bounds x="24" y="108" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="2836043a" textAlignment="2" archimateElement="60c70cd0">
-          <bounds x="24" y="192" width="120" height="49"/>
+          <bounds x="24" y="180" width="120" height="49"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="3aedabfa" textAlignment="2" archimateElement="5df7711b">
-          <bounds x="24" y="252" width="120" height="49"/>
+          <bounds x="24" y="240" width="120" height="49"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="730f0f66" textAlignment="2" archimateElement="e5bc1a71">
         <bounds x="480" y="240" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="77aa818c" source="730f0f66" target="1ba9e58f" relationship="387ccf08"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="edd0069c" textAlignment="2" archimateElement="5a0e7d31">
-        <bounds x="480" y="336" width="120" height="55"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="e179feb0" textAlignment="2" archimateElement="ff84afdf">
-        <bounds x="468" y="432" width="120" height="49"/>
+        <bounds x="480" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c76e0821" source="edd0069c" target="1ba9e58f" relationship="8edfd26a"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="c43a8e5d" name="Snag and Snag Repair Model">

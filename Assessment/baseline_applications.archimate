@@ -60,6 +60,7 @@
     <element xsi:type="archimate:BusinessInterface" id="8cd43cc7" name="Face-to-face"/>
     <element xsi:type="archimate:BusinessInterface" id="dded037d" name="Face-to-face"/>
     <element xsi:type="archimate:BusinessInterface" id="8d3ac1f1" name="Telephone"/>
+    <element xsi:type="archimate:BusinessRole" id="3e57430e" name="Engineer"/>
   </folder>
   <folder name="Application" id="f76d3646" type="application">
     <element xsi:type="archimate:ApplicationComponent" id="153faf3f" name="Social Media"/>
@@ -145,6 +146,7 @@
     <element xsi:type="archimate:AssociationRelationship" id="62391fa8" source="ea31d0b9" target="bc178d61"/>
     <element xsi:type="archimate:UsedByRelationship" id="387ccf08" source="e5bc1a71" target="3e31f4f4"/>
     <element xsi:type="archimate:UsedByRelationship" id="8edfd26a" source="5a0e7d31" target="3e31f4f4"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="b9660ba4" source="90682112" target="3e57430e"/>
   </folder>
   <folder name="Views" id="cfbd7fdf" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="6f281d6d" name="Heating Business Model">
@@ -169,9 +171,12 @@
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="c49d1f2e" textAlignment="2" archimateElement="90682112">
-        <bounds x="720" y="12" width="217" height="97"/>
+        <bounds x="636" y="12" width="301" height="97"/>
         <child xsi:type="archimate:DiagramObject" id="4ecfe777" textAlignment="2" targetConnections="12287037" archimateElement="8cd26274">
           <bounds x="12" y="24" width="133" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="d586b5f9" textAlignment="2" archimateElement="3e57430e">
+          <bounds x="156" y="24" width="133" height="55"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="a0ad0805" textAlignment="2" archimateElement="3c838344">
