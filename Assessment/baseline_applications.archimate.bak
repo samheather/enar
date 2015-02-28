@@ -125,9 +125,15 @@
     <element xsi:type="archimate:Driver" id="73a6b544" name="Business Goals"/>
     <element xsi:type="archimate:Assessment" id="8920dfa5" name="Average Number of Snags"/>
     <element xsi:type="archimate:Assessment" id="85ce7073" name="Percentage Delivered Late"/>
+    <element xsi:type="archimate:Principle" id="041c7ab0" name="Principle"/>
+    <element xsi:type="archimate:Constraint" id="40a182a8" name="Constraint"/>
   </folder>
-  <folder name="Implementation &amp; Migration" id="79989e57" type="implementation_migration"/>
-  <folder name="Connectors" id="3717d57e" type="connectors"/>
+  <folder name="Implementation &amp; Migration" id="79989e57" type="implementation_migration">
+    <element xsi:type="archimate:Gap" id="1fb7f1f7" name="Gap"/>
+  </folder>
+  <folder name="Connectors" id="3717d57e" type="connectors">
+    <element xsi:type="archimate:Junction" id="867730d6" name="Junction"/>
+  </folder>
   <folder name="Relations" id="d91b820f" type="relations">
     <element xsi:type="archimate:CompositionRelationship" id="7c3d9eaf" source="149f71e3" target="5657560c"/>
     <element xsi:type="archimate:AssignmentRelationship" id="9f5ce975" source="36819c22" target="09ae50b1"/>
@@ -630,7 +636,7 @@
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="f69c333c" textAlignment="2" archimateElement="9cc78d70">
-        <bounds x="804" y="240" width="281" height="358"/>
+        <bounds x="528" y="135" width="281" height="358"/>
         <child xsi:type="archimate:DiagramObject" id="88d01473" textAlignment="2" archimateElement="eaf39686">
           <bounds x="9" y="25" width="120" height="55"/>
         </child>
@@ -642,5 +648,6 @@
         </child>
       </child>
     </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="9e087a17" name="Top Level View"/>
   </folder>
 </archimate:model>
