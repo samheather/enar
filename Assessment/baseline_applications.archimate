@@ -82,7 +82,7 @@
     <element xsi:type="archimate:BusinessRole" id="72d679c8" name="Customer"/>
     <element xsi:type="archimate:BusinessRole" id="855148ec" name="Sales"/>
     <element xsi:type="archimate:BusinessRole" id="f70c4b52" name="Project Manager"/>
-    <element xsi:type="archimate:BusinessRole" id="ce899225" name="Zero Hour Contractor"/>
+    <element xsi:type="archimate:BusinessRole" id="ce899225" name="Customer Service / Call Centre"/>
     <element xsi:type="archimate:BusinessRole" id="bbac407c" name="Engineer"/>
     <element xsi:type="archimate:Location" id="8def26b4" name="Location"/>
     <element xsi:type="archimate:BusinessActor" id="9af9fd45" name="WORLD"/>
@@ -781,7 +781,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="621e4e05" source="bff917f0" target="75b99b4b" relationship="e1d11d00"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="5adfea1d" textAlignment="2" targetConnections="e6009212" archimateElement="28bc5b2a">
-        <bounds x="792" y="182" width="142" height="54"/>
+        <bounds x="804" y="156" width="142" height="71"/>
         <sourceConnection xsi:type="archimate:Connection" id="54d8393c" source="5adfea1d" target="b218f502" relationship="dccf4a7f"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="4ebbba9d" textAlignment="2" targetConnections="17d399c2" archimateElement="7e029838">
